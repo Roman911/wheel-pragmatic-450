@@ -62,7 +62,7 @@
     margin: 0 auto;
     width: fit-content;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-55%);
 }
 
 .wheel {
