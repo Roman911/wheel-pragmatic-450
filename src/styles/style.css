@@ -58,9 +58,11 @@
 }
 
 .luckywheel {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
     width: fit-content;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .wheel {
@@ -297,6 +299,7 @@ body {
 }
 
 .content {
+    height: 100vh;
     position: relative;
     max-width: 1085px;
     margin: 0 auto;
